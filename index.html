@@ -1,0 +1,93 @@
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500" rel="stylesheet">
+
+	<style>
+		@font-face {
+			font-family: OceanTwelve;
+			src: url('OceanTwelve.otf');
+		}
+
+		h1 {
+			font-family: 'OceanTwelve', 'Source Code Pro', monospace;
+			font-size: 48px;
+			font-weight: 100;
+		}
+
+		body {
+			background: #EEEEEE;
+		}
+
+		p {
+			font-family: 'Source Code Pro', monospace;
+		}
+
+		.main {
+			background: #FFFFFF;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5%;
+			width: 33%;
+			padding: 30px;
+			box-shadow: -3px 0px 8px 3px #999999;
+			overflow: auto;
+		}
+
+		::-webkit-input-placeholder {
+			font-family: 'Source Code Pro', monospace;
+		}
+
+		input {
+			font-family: 'Source Code Pro', monospace;
+			width: 49%;
+			border-radius: 5px;
+		}
+
+		input[type='email'] {
+			border: none;
+			border-bottom: 1px solid black;
+		}
+
+		input[type='email']:focus {
+			outline: none;
+			border-bottom: 1px solid red;
+		}
+
+		#logo {
+			width: 80%;
+			display: inline-block;
+			float: right;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			color: #000000;
+		}
+
+		a:hover {
+			border-radius: 5px;
+			border-bottom: 1px solid red;
+		}
+	</style>
+	<title>The Ministry of Peculiarities</title>
+</head>
+
+<body>
+	<div class="main">
+		<h1>Welcome.</h1>
+		<p>The Ministry of Peculiarities is securing a facility in the Inland Empire, CA. If you would like to be notified when investigations begin, please provide your contact details:</p>
+		<form class='email-form'>
+			<input type='email' placeholder='agent@theministry.com'>
+			<input id='link' type='submit'>
+		</form>
+		<p>In the meantime, browse our record of recent 
+			<a href="#">peculiarities</a>.
+		</p>
+		<p>We hope this has been informative and that you remain safe. Please check your windows and doors, and always remember to keep a sugar bowl on your table.</p>
+		<img src='logotext.png' id='logo' alt='logo'/>
+	</div>
+</body>
+
+</html>
